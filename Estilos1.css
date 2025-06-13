@@ -1,0 +1,105 @@
+head{
+    max-width: 100%;
+    padding: 0px;
+    margin : 0px;
+}
+
+body{
+    background: rgb(250, 130, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*En esto solo cambie colores*/
+#Container{
+width: 1100px;
+margin:  0px auto;
+border: 1px solid black;
+}
+
+header{
+    background: rgb(rgb(255, 0, 255), rgb(247, 0, 255), rgb(255, 0, 234));
+    height: 100px;
+    width: 100%;
+    text-align:  center;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.652);
+}
+/*En esto solo cambie colores*/
+nav {
+    background: rgb(241, 180, 234);
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+/*En esto solo cambie colores*/
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+/*En esto solo cambie colores*/
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+  width: 80%;
+  background: rgb(241, 180, 248);
+  min-height: 470px;
+}
+/*En esto solo cambie colores*/
+aside{
+    float: left;
+    width:  calc(20% - 20px);
+    background: rgb(241, 180, 248);
+    min-height: 470px;
+    padding: 10px;
+}
+/*En esto solo cambie colores*/
+.article{ss
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+
+}
+
+.article h2{
+    font-size: 23px;
+}
+
+/*responsivo-para-pantalla-pequeña*/
+@media (max-width: 768px) {
+  header {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .letreros h1 {
+  font-size: 20px;
+  }
+  .gallery-item{
+   width: 90%;
+  }
+  }
+  /*adaptivo-para-pantalla-pequña*/
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .main-content {
+    width: 100%;
+    float: none; 
+  }
+}
+
+  @media (min-width: 1024px) {
+    body {
+      font-size: 25px;
+    }
+    .main-content {
+      width: 100%;
+      float: none; 
+    }
+  }
+
